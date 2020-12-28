@@ -44,6 +44,7 @@ class Calculator extends Component {
                         break;
 
                     case '/':
+                        values[0] = values[0] / values[1];
                         break;
 
                     default:
